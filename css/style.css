@@ -1,0 +1,26 @@
+body {
+	background-color: #293a4b;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+body,
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+svg {
+	width: 800px;
+	height: 600px;
+	visibility: hidden;
+}
+
+#ringGroup circle {
+	filter: url(#glow);
+}
